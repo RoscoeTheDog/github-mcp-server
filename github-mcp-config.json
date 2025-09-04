@@ -1,0 +1,13 @@
+{
+  "description": "GitHub MCP Server Configuration",
+  "github_token": "",
+  "github_username": "",
+  "fallback_to_env": true,
+  "server_config": {
+    "toolsets": ["all"],
+    "dynamic_toolsets": false,
+    "read_only": false,
+    "enable_command_logging": false,
+    "content_window_size": 5000
+  }
+}

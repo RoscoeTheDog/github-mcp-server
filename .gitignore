@@ -20,3 +20,35 @@ bin/
 CLAUDE.md
 CLAUDE_INIT.md
 PLAN.md
+
+# Installation artifacts - files created by INSTALL.md process
+# These are generated locally and should not be committed
+
+# Built executables
+github-mcp-server.exe
+github-mcp-server
+
+# Local MCP configuration (project-specific)
+.mcp.json
+
+# Local configuration with tokens/credentials (if user modifies config)
+github-mcp-config-local.json
+*-local.json
+*.env
+.env*
+
+# Security: Any files that might contain credentials
+*token*
+*secret*
+*credential*
+*auth*
+!install.* 
+!*-wrapper.*
+!INSTALL.*
+
+# Runtime/temporary files that might be created
+*.log
+*.tmp
+
+# Claude-generated files with user data
+CLAUDE.md
