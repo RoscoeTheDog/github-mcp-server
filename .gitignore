@@ -16,10 +16,10 @@ bin/
 # macOS
 .DS_Store
 
-# Claude Code files
+# Claude Code files (user-specific, not templates)
 CLAUDE.md
-CLAUDE_INIT.md
 PLAN.md
+# Note: CLAUDE_INIT.md is tracked as it's a template for other projects
 
 # Installation artifacts - files created by INSTALL.md process
 # These are generated locally and should not be committed
